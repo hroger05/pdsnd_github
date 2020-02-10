@@ -5,10 +5,10 @@ February 9, 2020
 Hannah's Bikeshare Project
 
 ### Description
-Description
+This project explores bikeshare data from 3 major cities
 
 ### Files used
-File names
+Filenames
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
