@@ -2,9 +2,9 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+CITY_DATA = {'chicago': 'chicago.csv',
+             'new york city': 'new_york_city.csv',
+             'washington': 'washington.csv'}
 
 def get_filters():
     """
@@ -28,7 +28,7 @@ def get_filters():
 
     # get user input for month (all, january, february, ... , june)
     while True:
-        month=input("What month would you like to explore? Choose: All, or any month from January to June: ").lower()
+        month = input("What month would you like to explore? Choose: All, or any month from January to June: ").lower()
         if month not in ('all', 'january', 'february', 'march', 'april', 'may', 'june'):
             print("I\'m sorry, that choice is unavailable. Please choose any month from January to June, or just type \'all\': ")
         else:
@@ -36,7 +36,7 @@ def get_filters():
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day=input("What day of the week would you like to explore? Choose: All, or any day of the week: ").lower()
+        day = input("What day of the week would you like to explore? Choose: All, or any day of the week: ").lower()
         if day not in ('all','saturday','sunday','monday','tuesday','wednesday','thursday','friday'):
             print("I\'m sorry, that choice is unavailable. Please choose any day of the week, or just type \'all\': ")
         else:
@@ -217,4 +217,4 @@ def main():
 
 
 if __name__ == "__main__":
-	main()
+    main()
